@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>
+		
+		Payment Form 
+
+	</title>
+</head>
+<body>
+
+
+		<form action="">
+			
+
+			<h1>Payment Form</h1>
+			<h2>Contact Information</h2>
+
+
+
+			<p>Name: <input type="text" name="name" required> </p>
+
+
+
+			<fieldset>
+
+				<legend>GENDER</legend>
+
+			<p>
+				 Male   <input type="radio" name="gender" id="gender"> 
+				 Female <input type="radio" name="gender" id="gender" required>
+
+
+			</p>
+
+
+			</fieldset>
+
+
+
+			<p>
+				
+				Address: <textarea name="address" id="address" rows="8" cols="100" ></textarea>
+
+			</p>
+
+			<p>
+				
+				Email: <input type="email" name="email" id="email"   required >
+
+
+			</p>
+
+
+			<p>
+					Pincode: <input type="number" name="number" id = "number"  required>
+
+			</p>
+
+
+			<hr>
+
+
+			<h2>Payment Information</h2>
+
+			<p>	Card Type:
+
+				<select name="card_type" id="card_type">
+					
+					<option value="">--Select a card Type-- </option>
+
+					<option value="visa" >Visa</option>
+					<option value="paypak" >Paypak</option>
+					<option value="jazzcash" >JazzCash</option>
+
+
+
+				</select>
+
+
+			</p>
+
+
+			<p>
+				Card Number <input type="number" name="number" id="number" required>
+
+			</p>
+
+
+
+			<p>
+				
+				Expiration Date: <input type="date" name="exp_date" id="exp_date" required>
+
+			</p>
+
+
+			<p> CVV <input type="password" name="cvv" id="cvv" required> 
+
+
+			</p>
+
+
+			<input type="submit" value="Pay Now">
+
+
+
+
+
+
+
+
+
+
+
+
+
+		</form>
+
+
+
+</body>
+</html>
