@@ -1,0 +1,26 @@
+li[class]
+{
+
+
+	font-size: 200%;
+}
+
+
+
+li[class="a"]
+{
+
+	color: red;
+}
+
+
+
+
+/*jahan bhi a class hogi wahan ye kaam karega */
+
+li[class~="a"]{
+
+
+	color:gainsboro;
+
+}

@@ -1,0 +1,68 @@
+
+/*----------------------Selectors--------------------------------*/
+
+p, a {
+  color: green;
+}
+
+ul li {
+    color: initial;
+
+    list-style-type: none;
+}
+
+
+/*----------------------class Selectors ----------------------------*/
+
+
+.special{
+
+  color:orange;
+  font-weight: bold;
+}
+
+
+
+/*If you want to select some particular classes*/
+
+li.special{
+
+  color: orange;
+  font-weight: bold;
+}
+
+
+/*Li ke andar jitne em honge unka color chnage hoga */
+
+li, em{
+
+  color: rebeccapurple ;
+
+
+}
+
+
+/* -----Adjacent combinator.... p ke baad jph tag hoga woh yahan ajaega*/
+
+h1+p {
+
+
+  color: darkred;
+  font-size: 200%; 
+
+}
+
+/*Sudo class Selector */
+
+
+a:hover{
+
+  color: yellow;
+  text-decoration: none;
+
+}
+
+
+
+
+ 
