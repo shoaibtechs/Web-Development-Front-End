@@ -1,0 +1,46 @@
+/*------------------------- Tag selectors---------------------------------------- */
+
+
+
+
+
+/* Check Hover      h1:hover{color:red;} */
+
+
+
+h1
+{
+    
+    color:red;
+    font-size: 50px;
+    
+}
+
+
+
+
+/* ------------------------------class Selectors------------------------------------------- */
+
+.pizza{
+
+    background-color: green;
+
+
+}
+
+
+.briyani{
+
+    background-color: yellow;
+
+}
+
+
+/* ------------------------------ID Selectors---------------------------------------------------*/
+/* Id is unique. So, we will take care only can give id name once but we can give class name to as much tags as we want */
+
+#heading {
+
+    color: blue;
+
+}
